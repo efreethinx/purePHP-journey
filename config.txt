@@ -1,5 +1,4 @@
+1|Admin|maman@gmail.com
 2022001|Maman Ajah|maman@gmail.com
 2021005|Dodi Dong|dodi@dong.com
-2020|Susi Lawati|susi@lawati.com 
-2021006|Emon|emon@gmail.com 
-4324324|fagf|fgsdgfdg 
+2021006|Emon|emon@gmail.com

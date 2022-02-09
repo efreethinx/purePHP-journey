@@ -1,5 +1,5 @@
 <div class="halaman">
-	<form name="form1" method="post" action="/travel/perjalanan_proses.php">
+	<form name="form1" method="post" action="page/perjalanan_proses.php">
     <table width="500" border="0" align="center">
       <tr>
         <td colspan="2"><h3>TAMBAH CATATAN PERJALANAN</h3></td>

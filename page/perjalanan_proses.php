@@ -10,11 +10,11 @@
   $data = "$tgl|$jam|$lokasi|$suhu \n";
 
   // Buka file data.txt, kemudiantuliskanisivariabel di ataskedalam data.txt
-  $fh = fopen("data_NIK.txt", "a") or die("File tidak bisa dibuka");
+  $fh = fopen("../data_NIK.txt", "a") or die("File tidak bisa dibuka");
   fwrite($fh, $data);
 
   // Tutup file data.txt
   fclose($fh);
 
   // Keteranganbila data berhasildiinput
-  print "Data Telah Tersimpan</br><a href='dashboard.php?page=catatan'>Kembali</a>";
+  print "Data Telah Tersimpan</br><a href='../home.php?page=catatan'>Kembali</a>";

@@ -30,7 +30,7 @@
 					<li><a href="home.php?page=catatan">Catatan Perjalanan</a></li>
 					<li><a href="home.php?page=tambah">Tambah Catatan</a></li>
 					<li><a href="home.php?page=pengguna">PENGGUNA</a></li>
-					<li><a href="logout.php">Keluar</a></li>
+					<li><a href="page/logout.php">Keluar</a></li>
 				</ul>
 			</div>
 			<div class="badan">

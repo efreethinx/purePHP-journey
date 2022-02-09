@@ -17,9 +17,9 @@
                 // echo "<h3 align='center'> Selamat Datang <label style='color:red'>".$_SESSION['password'].'</label> Anda Berhasil Login </h3>';
             }
         ?>
-
 		<div class="content">
 			<header>
+				<img class="figura" src="img/1.jpg" alt="">
 				<h1 class="judul">PEDULI DIRI</h1>
 				<h3 class="deskripsi">Catatan Perjalanan</h3>
 			</header>

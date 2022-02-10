@@ -28,10 +28,10 @@ if (isset($_POST['submit'])) {
 function display_login_form() { ?>
     <form align="center" action="<?php echo $_SERVER['PHP_SELF']; ?>" method='post'>
         <h1>Login</h1>
-        <input size="30" type="text" name="username" id="username" value="NIK">
+        <input size="30" type="text" name="username" id="username" value="NIK" required>
         <br><br>
-        <input size="30" type="text" name="password" id="password" value="Nama Lengkap">
+        <input size="30" type="text" name="password" id="password" value="Nama Lengkap" required>
         <br><br>
-        <button><a href="registrasi_form.php">Saya Pengguna Baru</a></button> <button type="submit" class="btn" name="submit" value="submit">Masuk</button>
+        <a href="page/registrasi_form.php"><button type="button">Saya Pengguna Baru</button></a> <button type="submit" class="btn" name="submit" value="submit">Masuk</button>
     </form>
 <?php } ?>

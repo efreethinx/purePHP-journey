@@ -7,5 +7,9 @@
 - Nursandi, S.T. - @sandinur157
 
 ## Login Awal
+
 - NIK : 1
 - Nama : Admin
+Atau
+- NIK : 2
+- Nama : user

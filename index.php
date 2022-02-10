@@ -50,11 +50,11 @@ if (isset($_POST['submit'])) {
 
 <form align="center" action="<?php echo $_SERVER['PHP_SELF']; ?>" method='post'>
     <h1>Login</h1>
-    <input size="30" type="text" name="username" id="username" placeholder="NIK">
+    <input size="30" type="text" name="username" id="username" placeholder="NIK" required>
     <br><br>
-    <input size="30" type="text" name="password" id="password" placeholder="Nama Lengkap">
+    <input size="30" type="text" name="password" id="password" placeholder="Nama Lengkap" required>
     <br><br>
-    <button><a href="registrasi_form.php">Saya Pengguna Baru</a></button> <button type="submit" class="btn" name="submit" value="submit">Masuk</button>
+    <a href="page/registrasi_form.php"><button type="button">Saya Pengguna Baru</button></a> <button type="submit" class="btn" name="submit" value="submit">Masuk</button>
 
     <?php if ($loginIsInvalid) : ?>
     <p align="center" style="color:red;">Username Atau Password Tidak Benar</p>

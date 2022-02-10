@@ -11,7 +11,7 @@
         $no = 1;
         $lines = file('data_NIK.txt');
         $file_handle = fopen("data_NIK.txt", "rb");
-        echo "<h3>Riwayat Perjalanan</h3><hr>";
+        echo "<h3>RIWAYAT PERJALANAN</h3>";
         foreach ($lines as $line_num => $line) {
             $line_of_text = fgets($file_handle);
             $parts = explode('|', $line_of_text);

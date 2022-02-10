@@ -10,7 +10,7 @@
         $no = 1;
         $lines = file('config.txt');
         $file_handle = fopen("config.txt", "rb");
-        echo "<h3>Data Pengguna</h3><hr>";
+        echo "<h3>DATA PENGGUNA</h3>";
         foreach ($lines as $line_num => $line) {
             $line_of_text = fgets($file_handle);
             $parts = explode('|', $line_of_text);

@@ -50,6 +50,9 @@
                         case 'pengguna':
                             include "page/pengguna.php";
                         break;
+                        case 'perjalanan_proses':
+                            include "page/perjalanan_proses.php";
+                        break;
                         default:
                             echo "<center><h3>Maaf. Halaman tidak di temukan !</h3></center>";
                         break;

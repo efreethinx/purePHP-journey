@@ -16,7 +16,7 @@ $lokasi = $_POST['lokasi'];
 $suhu   = $_POST['suhu'];
 
 // Format data yang akan diparsing
-$data = "$tgl|$jam|$lokasi|$suhu \n";
+$data = "$tgl|$jam|$lokasi|$suhu";
 
 $content = str_replace($old_data, $data, $content);
 file_put_contents('data_NIK.txt', $content);

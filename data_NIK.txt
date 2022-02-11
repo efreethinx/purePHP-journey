@@ -1,4 +1,4 @@
-2021-09-14|08:00|Toko Buku Hangat|36.2
+2021-09-14|08:00|Toko Buku Hangat|36.2 
 2021-09-14|10:00|Bulan Dept Store|36.2
 2021-09-16|15:00|Pagi Jogging Area|37.0
 2021-09-14|08:00|Toko Buku Hangat 23|36.2 

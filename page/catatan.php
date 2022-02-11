@@ -22,7 +22,7 @@
 			}
             echo "<tr>
 				<td>$no</td>
-				<td height='30'>$parts[0]</td>
+				<td height='30'>". date('d-m-Y', strtotime($parts[0])) ."</td>
 				<td>$parts[1]</td>
 				<td align='left'>$parts[2]</td>
 				<td>$parts[3]</td>

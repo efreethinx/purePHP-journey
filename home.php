@@ -47,11 +47,20 @@
                         case 'tambah':
                             include "page/perjalanan_tambah.php";
                         break;
+                        case 'edit':
+                            include "page/perjalanan_edit.php";
+                        break;
+                        case 'hapus':
+                            include "page/perjalanan_hapus.php";
+                        break;
                         case 'pengguna':
                             include "page/pengguna.php";
                         break;
                         case 'perjalanan_proses':
                             include "page/perjalanan_proses.php";
+                        break;
+                        case 'perjalanan_proses_edit':
+                            include "page/perjalanan_proses_edit.php";
                         break;
                         default:
                             echo "<center><h3>Maaf. Halaman tidak di temukan !</h3></center>";

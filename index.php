@@ -2,6 +2,11 @@
 session_start();
 error_reporting(1);
 
+if (isset($_SESSION['username']) && isset($_SESSION['password'])) {
+    header("Location: home.php"); //Pindahkan Kehalaman Admin
+    exit;
+}
+
 // Ambil data user dari file
 $file_handle = fopen("config.txt", "rb");
 // $line_of_text = fgets($file_handle);

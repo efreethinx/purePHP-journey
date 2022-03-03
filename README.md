@@ -4,7 +4,7 @@
 ## Kontributor
 - Dede Iyan Supardi, S.T. - @efreethinx
 - Nunung Nurhayati, S.T. - @heavensmaiden
-- Nursandi, S.T. - @sandinur157
+- Nursandi, M.Kom. - @sandinur157
 
 ## Login Awal
 

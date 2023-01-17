@@ -62,6 +62,6 @@ if (isset($_POST['submit'])) {
     <a href="page/registrasi_form.php"><button type="button">Saya Pengguna Baru</button></a> <button type="submit" class="btn" name="submit" value="submit">Masuk</button>
 
     <?php if ($loginIsInvalid) : ?>
-        <p align="center" style="color:red;">Username Atau Password Tidak Benar</p>
+        <p align="center" style="color:red;">Username Atau Password Tidak Benar !</p>
     <?php endif; ?>
 </form>

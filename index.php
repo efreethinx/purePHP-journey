@@ -3,7 +3,7 @@ session_start();
 error_reporting(1);
 
 if (isset($_SESSION['username']) && isset($_SESSION['password'])) {
-    header("Location: home.php"); //Pindahkan Kehalaman Admin
+    header("Location: home.php"); //Pindahkan ke halaman Admin
     exit;
 }
 
@@ -15,8 +15,8 @@ $file_handle = fopen("config.txt", "rb");
 // $pass = $parts[1];
 
 $rows = [];
-while($item = fgets($file_handle)) {
-    list( $word ) = explode( "++", $item );
+while ($item = fgets($file_handle)) {
+    list($word) = explode("++", $item);
 
     $words = explode('|', $word);
 
@@ -62,6 +62,6 @@ if (isset($_POST['submit'])) {
     <a href="page/registrasi_form.php"><button type="button">Saya Pengguna Baru</button></a> <button type="submit" class="btn" name="submit" value="submit">Masuk</button>
 
     <?php if ($loginIsInvalid) : ?>
-    <p align="center" style="color:red;">Username Atau Password Tidak Benar</p>
+        <p align="center" style="color:red;">Username Atau Password Tidak Benar</p>
     <?php endif; ?>
 </form>
